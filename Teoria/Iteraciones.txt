@@ -1,0 +1,6 @@
+Un iterable es un objeto que se puede iterar sobre el, 
+
+Bucle For en listas:
+Valores = ['a','b','c','d']
+for k in Valores:
+    print(k)

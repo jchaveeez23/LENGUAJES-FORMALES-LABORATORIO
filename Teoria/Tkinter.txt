@@ -1,0 +1,2 @@
+Es el paquete mas utilizado para Crear interfaces graficas en Python.
+Es una capa orientada a objetos  basada en tcl y tk.
