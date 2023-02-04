@@ -1,0 +1,11 @@
+En Python un diccionario es una coleccion de datos, los almacena en pares de clave:valor.
+
+Ejemplo:
+"Carne":"202100033"
+
+Crear Diccionario:
+Dict = {}
+Dict = {1:'Perro',2:'Gato',3:'Pez'}
+
+Acceder a Diccionario:
+Dict[Clave]
