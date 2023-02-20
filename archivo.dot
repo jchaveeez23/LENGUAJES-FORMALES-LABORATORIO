@@ -1,0 +1,9 @@
+rankdir = TB 
+node[shape=circle, fontname="Arial Black", fontsize=16]
+a[shape="hexagon", label="Tarea 2",color=orange, style=filled]
+b[fontcolor=Black,color=blue,fontname=Arial, shape=record,fontsize=12,label="Lenguajes Formales y de Programacion"]
+c[shape=record,fontsize=12,label="Nombre | Josue Chavez",color=green,fontname=Arial]
+d[shape=oval,fontsize=12,label="Seccion: B-",color=yellow,style=filled,fontname=Arial]
+e[shape=record,fontsize=12,label="{Carnet:|202100033}",color=grey,style=filled,fontname=Arial]
+f[shape=record,fontsize=12,label="{Correo:|chavez23@gmail.com}",color=red,style=filled,fontname=Arial]
+

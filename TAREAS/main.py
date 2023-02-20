@@ -1,0 +1,15 @@
+import os
+archivoDOT = open("archivo.dot","w")
+archivoDOT.write("rankdir = TB \n")
+archivoDOT.write('node[shape=circle, fontname="Arial Black", fontsize=16]\n')
+archivoDOT.write('a[shape="hexagon", label="Tarea 2",color=orange, style=filled]\n')
+archivoDOT.write('b[fontcolor=Black,color=blue,fontname=Arial, shape=record,fontsize=12,label="Lenguajes Formales y de Programacion"]\n')
+archivoDOT.write('c[shape=record,fontsize=12,label="Nombre | Josue Chavez",color=green,fontname=Arial]\n')
+archivoDOT.write('d[shape=oval,fontsize=12,label="Seccion: B-",color=yellow,style=filled,fontname=Arial]\n')
+archivoDOT.write('e[shape=record,fontsize=12,label="{Carnet:|202100033}",color=grey,style=filled,fontname=Arial]\n')
+archivoDOT.write('f[shape=record,fontsize=12,label="{Correo:|chavez23@gmail.com}",color=red,style=filled,fontname=Arial]\n')
+archivoDOT.write('\n')
+archivoDOT.close()
+
+archivoDOT.close()
+os.system("dot.exe -Tpng imagen.dot -o  ReporteGrafico.png")
